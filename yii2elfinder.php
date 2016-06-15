@@ -68,7 +68,9 @@ class yii2elfinder extends elWidget
         $this->clientOptions['url'] = Url::to(array($this->connectorRoute));
         
         //fetch language from app
-        $this->clientOptions['lang'] = substr(Yii::$app->language,0,2);                
+        if(substr(Yii::$app->language,0,2)=="zh")$this->clientOptions['lang'] = Yii::$app->language;   
+        else $this->clientOptions['lang'] = substr(Yii::$app->language,0,2);
+        $this->clientOptions['lang'] = str_replace("-","_",$this->clientOptions['lang']);
     }
 
     /**
