@@ -2303,7 +2303,7 @@ embed.elfinder-quicklook-preview-audio {
 
 /* search text field */
 .elfinder-button-search input {
-	width:160px;
+	width:100px;
 	height:22px;
 	padding:0 20px;
 	line-height: 22px;
@@ -2314,7 +2314,14 @@ embed.elfinder-quicklook-preview-audio {
 	border-radius: 12px;
 	outline:0px solid;
 }
-
+.elfinder-button-search input[type="radio"]
+{
+	width:28px;
+}
+.elfinder-button-search label
+{
+	width:160px;
+}
 .elfinder-touch .elfinder-button-search input {
 	height:28px;
 	line-height: 28px;
