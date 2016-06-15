@@ -1,5 +1,6 @@
 I'v tested many yii2 elfinder on git hub. Either it is harded to use, or has no detailed instructions until I found philippfrenzel's version.
 It worked!
+
 I did some work to make it work with the latest elFinder-2.1.12.
 The old version is not right with local zh_CN.
 
@@ -38,10 +39,10 @@ Add two line to your config/web.php
 Add this to your composer.json require section
 
 ```json
-  "70838697/yii2elfinder": "dev-master",
+  "a70838697/yii2elfinder": "dev-master",
 ```
 
-After that add into your controller the following function
+After that add into your controller such as "DownloadControl.php" the following function
 
 ```php
 public function actions()
@@ -55,7 +56,7 @@ public function actions()
             'roots'  => array(
                 array(
                     'driver' => 'LocalFileSystem',
-                    'path'   => dirname(__DIR__).'/../www/img/cms/',
+                    'path'   => dirname(__DIR__).'/../../uploads',
                     'URL'    => '',
                 )
             )   
@@ -85,7 +86,7 @@ $this->title = 'File Manager';
 <?php
 echo yii2elfinder::widget(
   array(
-    'connectorRoute' => 'site/connector',
+    'connectorRoute' => 'download/connector',
   )
 );
 ?>
