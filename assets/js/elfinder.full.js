@@ -18148,6 +18148,7 @@ elFinder.prototype.commands.upload = function() {
 
 			dropbox.addEventListener('drop', function(e) {
 				dialog.elfinderdialog('close');
+				e.preventDefault();
 				targets && (e._target = targets[0]);
 				dropUpload(e);
 			}, false);

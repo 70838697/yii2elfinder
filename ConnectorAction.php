@@ -24,7 +24,7 @@ ini_set('mbstring.internal_encoding', 'UTF-8');
 ini_set('mbstring.func_overload', 2);
 
 if (function_exists('date_default_timezone_set')) {
-	date_default_timezone_set('Europe/Berlin');
+	date_default_timezone_set('Asia/Hong_Kong');
 }
 
 require_once(__DIR__ . '/php/elFinderConnector.class.php');
