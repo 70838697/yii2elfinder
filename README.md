@@ -4,7 +4,7 @@ It worked!
 I did some work to integrate latest elFinder-2.1.12,
 and have fixed bugs concering local zh_CN.
 
-There is a website http://www.dawoma.com/yii2elfinder where you can download offline package and sample files.
+There is a demo website http://www.dawoma.com/download/yii2elfinder where you can download offline package and sample files.
 yii2elfinder
 ============
 
