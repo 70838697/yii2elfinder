@@ -1,9 +1,10 @@
 I'v tested many yii2 elfinder on git hub. Either it is harded to use, or has no detailed instructions until I found philippfrenzel's version.
 It worked!
 
-I did some work to make it work with the latest elFinder-2.1.12.
-The old version is not right with local zh_CN.
+I did some work to integrate latest elFinder-2.1.12,
+and have fixed bugs concering local zh_CN.
 
+There is a website http://www.dawoma.com/yii2elfinder where you can download offline package and sample files.
 yii2elfinder
 ============
 
@@ -23,7 +24,7 @@ apart from the action, i had to change everything;)
 This extension allows you to integrate ElFinder file manager into your Yii web site's pages. Comparing with elfinder-widget extension this one is implemented with an attempt to provide a more flexible way to configure both ElFinder's client and connector. The extension also relies on the latest release of ElFinder 2.0-rc1 (10th of April, 2012).
 
 How to install:
-yii2elfinder needs yii-jui at https://github.com/yiisoft/yii2-jui which depends on Jquery UI 1.11 https://blog.jqueryui.com/2014/06/jquery-ui-1-11-0/.
+yii2elfinder needs yii-jui at https://github.com/yiisoft/yii2-jui which depends on Jquery UI 1.11 above https://blog.jqueryui.com/2014/06/jquery-ui-1-11-0/.
 
 You can install this package manually by downloading the ziped file, extracting it under verndor/philippfrenze. 
 Add two line to your config/web.php
