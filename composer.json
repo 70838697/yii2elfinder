@@ -23,6 +23,9 @@
 			"role": "Updated Version Yii2"
 		}
 	],
+	"require-dev": {
+        	"yiisoft/yii2-jui": "~2.0.0"
+    	},
 	"support": {
 		"source": "https://github.com/a70838697/yii2elfinder"
 	},
