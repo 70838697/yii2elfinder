@@ -1,5 +1,5 @@
 {
-	"name": "philippfrenzel/yii2elfinder",
+	"name": "a70838697/yii2elfinder",
 	"description": "Yii2 elfinder Widgets",
 	"keywords": ["yii", "framework","yii2 elfinder filemaneger"],
 	"homepage": "http://www.frenzel.net/",
@@ -15,10 +15,16 @@
 			"email": "philipp@frenzel.net",
 			"homepage": "http://www.frenzel.net/",
 			"role": "Author Version Yii2"
+		},
+		{
+			"name": "Casper China",
+			"email": "worthful@dawoma.com",
+			"homepage": "http://www.dawoma.com/",
+			"role": "Updated Version Yii2"
 		}
 	],
 	"support": {
-		"source": "https://github.com/philippfrenzel/yii2elfinder"
+		"source": "https://github.com/a70838697/yii2elfinder"
 	},
 	"minimum-stability": "dev",
 	"require": {
